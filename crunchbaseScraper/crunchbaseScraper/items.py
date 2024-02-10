@@ -6,15 +6,12 @@
 import scrapy
 
 
-class LinkedinscraperItem(scrapy.Item):
+class CrunchbasescraperItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     pass
 
-class JobItem(scrapy.Item):
-    job_title = scrapy.Field()
+class CrunchbaseCompanyItem(scrapy.Item):
     company_name = scrapy.Field()
+    industry = scrapy.Field()
     location = scrapy.Field()
-    job_post_url = scrapy.Field()
-    company_link = scrapy.Field()
-    date_listed = scrapy.Field()

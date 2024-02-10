@@ -1,4 +1,0 @@
-Scrapy==2.6.0
-beautifulsoup4==4.10.0
-lxml==4.7.3
-Twisted==22.10.0
